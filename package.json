@@ -1,0 +1,22 @@
+{
+  "name": "aqua-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile-aqua": "aqua-js -i src/aqua -o src",
+    "prestart": "tsc",
+    "start": "nodemon dist/index.js"
+  },
+  "dependencies": {
+    "@fluencelabs/aqua-dht": "0.1.37",
+    "@fluencelabs/fluence": "0.10.1",
+    "@fluencelabs/fluence-network-environment": "1.0.10"
+  },
+  "devDependencies": {
+    "@fluencelabs/aqua-cli": "0.2.1-219",
+    "typescript": "^3.9.5",
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
